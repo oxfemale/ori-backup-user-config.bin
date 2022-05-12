@@ -14,3 +14,6 @@ c/encrypt $out /tmp/a.bin
 rm $out
 rm ori-backup-user-config.bin
 ----------------------------------------------------
+lulz crew
+revers and code @ret5et
+----------------------------------------------------
