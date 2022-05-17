@@ -1,19 +1,38 @@
-# ori-backup-user-config.bin
-Archer C7 tp-link Decrypt/Crypt Config files
+```
++-+-+-+-+ +-+-+-+-+                                                                                                                                         
+|l|u|l|z| |C|r|e|w|                                                                                                                                         
++-+-+-+-+ +-+-+-+-+ 
 
+tp-link Decrypt/Crypt Config files
+```
 
-====================================================
-----------------------------------------------------
+# Compile
 
-tar -czf ori-backup-user-config.bin --owner=0 --group=0 tmp/user-config.xml
-chmod 644 ori-backup-user-config.bin
-tar -cf $out --owner=0 --group=0 ori-backup-user-config.bin ori-backup-certificate.bin
-c/encrypt $out /tmp/a.bin
-----------------------------------------------------
-#cleanup
-rm $out
-rm ori-backup-user-config.bin
-----------------------------------------------------
-lulz crew
-revers and code @ret5et
-----------------------------------------------------
+```
+$ cd c/
+./build.sh
+
+```
+# Usage
+
+```
+./decrypt <config.bin> <output.tar>
+./encrypt <inpit.tar> <output.bin>
+
+$ ./decryp_and_unpack.sh backup-ArcherC7v5-2022-04-29.bin
+$ cat ./out/tmp/user-config.xml
+$ ./repack.sh /tmp/out.bin
+```
+
+# Info
+
+Tested on: Archer C7 tp-link.
+
+# Crypt
+
+AES 128 bit
+
+iv:  "1234567890abcdef   "
+
+key: "0123456789abcdef    ";
+
