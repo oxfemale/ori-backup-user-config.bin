@@ -31,6 +31,6 @@ Tested on: Archer C7 tp-link.
 # Crypt
 ```
 AES 128 bit
-iv:  "1234567890abcdef   "
-key: "0123456789abcdef    ";
+iv:  "1234567890abcdef"
+key: "0123456789abcdef";
 ```
