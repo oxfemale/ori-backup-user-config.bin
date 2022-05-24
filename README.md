@@ -30,7 +30,7 @@ Tested on: Archer C7 tp-link.
 
 # Crypt
 ```
-AES 128 bit
+AES 128 bit (cbc)
 iv:  "1234567890abcdef"
 key: "0123456789abcdef";
 ```
