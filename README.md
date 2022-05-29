@@ -33,6 +33,8 @@ md5sum
 
 7f443faf5d52fbca0267bb29c2d9b570  Archer C7(RU)_V5_211210.zip
 98fe0e523ed145171c1c2d8f15bee2e1  c7v5_up-ver1-2-0-P1[20211210-rel51212]_2021-12-10_14.15.13.bin
+
+https://static.tp-link.com/upload/firmware/2022/202202/20220207/Archer%20C7(RU)_V5_211210.zip
 ```
 
 # Crypt
